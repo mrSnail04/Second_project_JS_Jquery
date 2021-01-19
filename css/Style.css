@@ -1,0 +1,71 @@
+.done{
+	color: gray;
+	text-decoration: line-through; 
+}
+
+#shopping_list {
+	margin: 100px auto;
+	width: 400px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	word-wrap: break-word;
+}
+#shopping_list:hover{
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+body {
+	background-image: url('../images/fruit.jpg');
+}
+h2{
+	background: #7D8A2E;
+	margin: 0;
+	padding:10px 15px;
+	color: white;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+ul{
+	list-style: none;
+	margin: 0px;
+	padding: 10px;
+	height: 100%;
+	width: 380px;
+}
+
+li{
+	
+	border-top: 10px solid transparent ;
+	color:#D2691E;
+	font-size: 25px;
+	transition: all 1s;
+
+
+}
+input{
+	font-size: 20px;
+	width: 100%; 
+	padding: 15px;
+	box-sizing: border-box;
+	color:#7D8A2E;
+}
+input:focus {
+	background: white;
+	border: 2px solid #7D8A2E;
+	outline: none;
+}
+li span{
+	float: right;
+	text-align:center;
+	box-sizing: border-box;
+	font-size:20px;
+	color: red;
+
+}
+li:hover{
+	transform: scale(1.01)
+}
+h2 span{
+	float: right;
+
+}
