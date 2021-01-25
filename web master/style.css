@@ -1,0 +1,58 @@
+.navbar{
+    background-color: #39aeff;
+    font-size: 20px;
+}
+
+.carousel-inner{
+    height: 55vh;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: #39aeff;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: #39aeff;
+}
+
+.carousel-caption{
+    top: 50%;
+    transform: translateY(-50%);
+    bottom:initial;
+    color:#0d1a25;
+}
+.card{
+    margin: 50px;
+}
+
+.row{
+    margin-top: 50px;
+}
+
+footer{
+    background-color:#39aeff ;
+    color: white;
+    padding: 3%;
+    margin-top: 50px;
+}
+
+.fab{
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+}
+.fab:hover{
+    color: #3d4b52;
+}
